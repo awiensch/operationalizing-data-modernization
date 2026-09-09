@@ -41,3 +41,9 @@ This version corrects the deployment/display issues reported after v3:
 - Removes the oversized logo from the hero card to prevent cropping.
 - Keeps the Regenstrief logo in the header on both the homepage and every breakout-session page.
 - Removes the obsolete About navigation link.
+
+## v5 homepage refinement
+- Removed the Regenstrief Institute logo from the dark conference/date card beside the date.
+- Simplified that card to a cleaner date + conference information layout.
+- Kept the Regenstrief Institute logo prominently in the site header and footer.
+- Bumped asset versioning to `?v=5`.
