@@ -31,3 +31,13 @@ For a no-code content workflow later, the data can be moved into a CSV/JSON sour
 - Kept a single green “Join the session” panel with the language: “The Teams link will be posted here before the conference.”
 - Reduced the prominence of “About this site” by removing that large bottom section from the homepage.
 - The conference-wide language still states that Teams links will be added before the conference and recordings after the conference.
+
+
+## v4 fix
+This version corrects the deployment/display issues reported after v3:
+- Uses `regenstrief-logo.png`, a short local filename.
+- Forces the browser to reload the stylesheet with `styles.css?v=4`.
+- Constrains the Regenstrief logo to fixed, proportional dimensions in headers and footers.
+- Removes the oversized logo from the hero card to prevent cropping.
+- Keeps the Regenstrief logo in the header on both the homepage and every breakout-session page.
+- Removes the obsolete About navigation link.
