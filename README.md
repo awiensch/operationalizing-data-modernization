@@ -16,3 +16,9 @@ Open `sessions.js` and add fields such as:
 Then update the rendering in `script.js` if you want those URLs to appear as active buttons.
 
 For a no-code content workflow later, the data can be moved into a CSV/JSON source or a simple CMS.
+
+
+## Current content notes
+- Teams links are intentionally placeholders and should be added before the conference.
+- Recording placeholders are intentionally shown until recordings are available after the conference.
+- The Regenstrief Institute logo is displayed from a hosted image URL; for maximum reliability, you may later upload an approved logo image into the repository and point the site to that local file.
