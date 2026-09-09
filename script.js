@@ -41,9 +41,9 @@ function renderSessionPage(){
    <div class="session-info"><span>🎤 ${esc(s.speaker)}</span>${s.organization?`<span>· ${esc(s.organization)}</span>`:""}<span>· Room ${esc(s.room)}</span></div>
  </div></section>
  <section class="container session-content">
-   <div class="content"><div class="session-status"><strong>Live session link coming soon</strong><span>Teams links will be added to this page prior to the conference.</span></div><h2>Abstract</h2><div class="abstract">${esc(s.abstract)}</div></div>
+   <div class="content"><h2>Abstract</h2><div class="abstract">${esc(s.abstract)}</div></div>
    <aside class="sidebar">
-     <div class="action-card"><h3>Join the session</h3><p>The Teams link will be posted here before the conference.</p><a class="placeholder-button" href="#" onclick="return false">Teams link coming soon</a></div>
+     <div class="action-card join-card"><h3>Join the session</h3><p>The Teams link will be posted here before the conference.</p><a class="placeholder-button" href="#" onclick="return false">Teams link coming soon</a></div>
      <div class="speaker-box"><h3>Presenter</h3><p><strong>${esc(s.speaker)}</strong></p>${s.organization?`<p>${esc(s.organization)}</p>`:""}</div>
      <div class="action-card" style="background:#eef4f0;color:var(--deep)"><h3>Recording</h3><p style="color:#607274">Recordings will be added here after the conference for on-demand viewing.</p><span class="placeholder-button">Available after event</span></div>
    </aside>
